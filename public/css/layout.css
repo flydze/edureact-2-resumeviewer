@@ -325,6 +325,11 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.bar-item {
+  -moz-animation: bar-item 2s ease;
+  -webkit-animation: bar-item 2s ease;
+}
+/*
 .photoshop {
   	width: 60%;
   	-moz-animation: photoshop 2s ease;
@@ -405,6 +410,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+*/
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
